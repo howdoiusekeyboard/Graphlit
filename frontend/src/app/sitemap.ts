@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = 'https://graphlit.kushagragolash.tech';
+  const base = 'https://graphlit.kushagragolash.dev';
   const now = new Date();
 
   const staticRoutes: MetadataRoute.Sitemap = [

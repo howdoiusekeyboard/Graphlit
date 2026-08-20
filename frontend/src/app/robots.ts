@@ -3,6 +3,6 @@ import type { MetadataRoute } from 'next';
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: [{ userAgent: '*', allow: '/' }],
-    sitemap: 'https://graphlit.kushagragolash.tech/sitemap.xml',
+    sitemap: 'https://graphlit.kushagragolash.dev/sitemap.xml',
   };
 }

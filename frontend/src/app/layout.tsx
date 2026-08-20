@@ -12,7 +12,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://graphlit.kushagragolash.tech'),
+  metadataBase: new URL('https://graphlit.kushagragolash.dev'),
   title: {
     default: 'GraphLit ResearchRadar | AI Citation Intelligence',
     template: '%s | GraphLit ResearchRadar',
@@ -47,14 +47,14 @@ export default function RootLayout({
               '@context': 'https://schema.org',
               '@type': 'WebApplication',
               name: 'GraphLit ResearchRadar',
-              url: 'https://graphlit.kushagragolash.tech',
+              url: 'https://graphlit.kushagragolash.dev',
               applicationCategory: 'ResearchTool',
               description:
                 'Citation intelligence platform for academic research discovery through collaborative filtering and community detection.',
               author: {
                 '@type': 'Person',
                 name: 'Kushagra Golash',
-                url: 'https://kushagragolash.tech',
+                url: 'https://kushagragolash.dev',
               },
             }),
           }}

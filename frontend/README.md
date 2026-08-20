@@ -30,7 +30,7 @@ bun install
 
 # Configure environment
 cp .env.example .env.local
-# Edit: NEXT_PUBLIC_API_URL=https://api.graphlit.kushagragolash.tech
+# Edit: NEXT_PUBLIC_API_URL=https://api.graphlit.kushagragolash.dev
 
 # Start development server
 bun run dev
@@ -40,8 +40,8 @@ bun run dev
 **Requires**: Backend API running (see `backend/README.md`).
 
 **Production URLs**:
-- Frontend: `https://graphlit.kushagragolash.tech` (Vercel)
-- Backend API: `https://api.graphlit.kushagragolash.tech` (Koyeb)
+- Frontend: `https://graphlit.kushagragolash.dev` (Vercel)
+- Backend API: `https://api.graphlit.kushagragolash.dev` (Koyeb)
 
 ## Pages
 
